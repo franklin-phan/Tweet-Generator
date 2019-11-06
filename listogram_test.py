@@ -13,7 +13,8 @@ class ListogramTest(unittest.TestCase):
     fish_words = ['one', 'fish', 'two', 'fish', 'red', 'fish', 'blue', 'fish']
     fish_list = [('one', 1), ('fish', 4), ('two', 1), ('red', 1), ('blue', 1)]
     fish_dict = {'one': 1, 'fish': 4, 'two': 1, 'red': 1, 'blue': 1}
-
+    def add_count(self, word, count):
+    
     def test_entries(self):
         # NOTE: This test assumes Listogram is implemented as a list of tuples,
         # but if you implement it as a list of lists (or a list of count-lists)
